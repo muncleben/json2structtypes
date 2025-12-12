@@ -142,7 +142,7 @@ def infer_schema_from_json_file(path: str) -> StructType:
 
 if __name__ == "__main__":
     # sample json file path
-    example_path = "sample_data/kpilineperday.json"
+    example_path = "sample_data/business_sample_data.json"
 
     try:
         schema = infer_schema_from_json_file(example_path)
